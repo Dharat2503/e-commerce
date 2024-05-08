@@ -1,0 +1,101 @@
+
+
+h2 {
+  text-align: center;
+  color: #007bff; 
+ 
+}
+
+button.continue-shopping {
+  position: fixed;
+   top: 8%;
+  left: 20px;
+}
+
+button.remove {
+  margin-right: 5px;
+}
+
+button.twobtn {
+  margin: 20px;
+  display: flex;
+}
+
+.card-container-4 {
+  display: flex;
+  flex-wrap: wrap;
+
+  
+}
+
+.card-4 {
+  margin-top: 20px;
+  width: 100%; 
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card-image4 {
+  width: 100%; 
+  height: auto; 
+  margin-bottom: 10px;
+}
+
+.card-details-4 {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-title-4 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.card-description-4 {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.card-price-4 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.card-category-4 {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.card-rating-4 {
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.twobtn-4 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn {
+  padding: 10px 20px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 768px) {
+  .card-4 {
+    width: 48%; 
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .card-4 {
+    width: 30%; 
+  }
+}

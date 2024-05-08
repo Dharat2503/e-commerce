@@ -1,0 +1,39 @@
+
+
+.slide-71{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+.carousel-container-71 {
+  max-width: 100%; 
+  margin-top: 20px;
+  margin-bottom: 50px;
+ 
+
+ 
+}
+
+
+.carousel-image-71 {
+  width: 100%; 
+  height: auto; 
+  object-fit: cover; 
+}
+
+.card-71 {
+  flex: 0 0 auto;
+}
+
+@media (max-width: 768px) {
+  .slide-71 {
+    flex-direction: column; 
+    
+  }
+}
+
+
+
